@@ -53,7 +53,7 @@
         android:layout_height="wrap_content"
         android:text="@string/btn_leave_app"
         android:layout_marginTop="@dimen/spacer"
-        android:layout_below="@id/btn_main_question"
+        android:layout_below="@id/btn_main_permission"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:backgroundTint="#B10000"
@@ -83,5 +83,24 @@
         android:padding="5dp"
         />
 
+    <Button
+        android:id="@+id/btn_main_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_alarm"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/pink"
+        android:layout_below="@id/btn_main_question"
+        />
+
+    <Button
+        android:id="@+id/btn_main_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_permission"
+        android:layout_below="@id/btn_main_alarm"
+        android:backgroundTint="@color/chartreuse"
+        android:textColor="@color/black"
+        />
 
 </RelativeLayout>
